@@ -1,8 +1,13 @@
-# A React Js and Node Js Boilerplate
+# React and Node with AWS-SDK set up
 ## Installation Instructions
 
-Install nodemon and create-react-app globally using below command:
+- git clone this repo 
 
-`$ npm i -D nodemon`
+- 'cd react-node-boilerplate'
+- 'npm i' This will install all packages needed.
 
-`npm i -g create-react-app`
+- 'cd client'
+- 'npm i' Install packages for client side.
+
+use command 'npm run dev' in root directory to run both front and backend with one command using concurrently.
+Apply your own AWS keys and bucket name for this to work. 
